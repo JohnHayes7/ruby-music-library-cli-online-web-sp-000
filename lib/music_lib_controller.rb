@@ -29,10 +29,12 @@ class MusicLibraryController
     end
     
     case input 
-      
       when "list songs"
         self.list_songs
-        when
+      when "list_artists"
+        self.list_artists
+      when "list_genres"
+        self.list_genres
         
     end
     
