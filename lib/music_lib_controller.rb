@@ -36,7 +36,6 @@ class MusicLibraryController
         self.list_songs_by_genre
       when "play song"
         self.play_song
-        
     end
     
     until input == "exit"
