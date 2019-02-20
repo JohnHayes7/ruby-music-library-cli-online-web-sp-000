@@ -27,6 +27,14 @@ class MusicLibraryController
       puts "What would you like to do?"
       input = gets.strip
     end
+    
+    case input 
+      
+      when "list songs"
+        self.list_songs
+        
+    end
+    
   end
   
   
