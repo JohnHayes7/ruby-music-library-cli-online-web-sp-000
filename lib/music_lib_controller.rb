@@ -32,6 +32,7 @@ class MusicLibraryController
       
       when "list songs"
         self.list_songs
+        when
         
     end
     
