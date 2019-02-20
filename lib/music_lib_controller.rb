@@ -26,10 +26,6 @@ class MusicLibraryController
     until input == "exit"
       puts "What would you like to do?"
       input = gets.strip
-        if input == "list songs"
-          self.list_songs
-    # elsif input == "list_artists"
-        end
     end
   end
   
